@@ -85,11 +85,11 @@ export const Home = () =>
                             <footer className="flex justify-center gap-3 my-4">
                                 {socialLinks?.facebook && <Social url={socialLinks?.facebook} ><FaFacebook size={35} color="#fff"/></Social>}
                         
-                                {socialLinks?.instagram && <Social url="https://youtube.com/sujeitoprogramador"><FaInstagram size={35} color="#fff"/></Social>}
+                                {socialLinks?.instagram && <Social url={socialLinks?.instagram}><FaInstagram size={35} color="#fff"/></Social>}
 
-                                {socialLinks?.linkedin && <Social url="https://youtube.com/sujeitoprogramador"><FaLinkedin size={35} color="#fff"/></Social>}
+                                {socialLinks?.linkedin && <Social url={socialLinks?.linkedin}><FaLinkedin size={35} color="#fff"/></Social>}
 
-                                {socialLinks?.youtube && <Social url="https://youtube.com/sujeitoprogramador"><FaYoutube size={35} color="#fff"/></Social>}
+                                {socialLinks?.youtube && <Social url={socialLinks?.youtube}><FaYoutube size={35} color="#fff"/></Social>}
                             </footer>
                         )
                     }
